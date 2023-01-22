@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TBTTD</title>
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+</head>
+<body>
+
+<!-- Nav -->
+<nav class="container-fluid">
+    <ul>
+        <li><a href="./" class="contrast" onclick="event.preventDefault()"><strong>TBTTD</strong></a></li>
+    </ul>
+    <ul>
+        <li>
+            <details role="list" dir="rtl">
+                <summary aria-haspopup="listbox" role="link" class="secondary">Theme</summary>
+                <ul role="listbox">
+                    <li><a href="#" data-theme-switcher="auto">Auto</a></li>
+                    <li><a href="#" data-theme-switcher="light">Light</a></li>
+                    <li><a href="#" data-theme-switcher="dark">Dark</a></li>
+                </ul>
+            </details>
+        </li>
+        <li>
+            <details role="list" dir="rtl">
+                <summary aria-haspopup="listbox" role="link" class="secondary">0x2342</summary>
+                <ul role="listbox">
+                    <li><a href="#" data-theme-switcher="auto">Log out</a></li>
+                </ul>
+            </details>
+        </li>
+    </ul>
+</nav><!-- ./ Nav -->
+
+<!-- Main -->
+<main class="container">
+    <article class="grid">
+        <div>
+            <hgroup>
+                <h1>400 USD</h1>
+                <h2>Up 5%</h2>
+            </hgroup>
+        </div>
+        <div>
+            <form>
+                <button type="submit" class="contrast" onclick="event.preventDefault()">BUY</button>
+                <button type="submit" class="is-primary" onclick="event.preventDefault()">SELL</button>
+            </form>
+        </div>
+    </article>
+    <article>
+        <table>
+            <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">COIN</th>
+                <th scope="col">PRICE</th>
+                <th scope="col">%</th>
+                <th scope="col">TOTAL USD</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th scope="row">10</th>
+                <td>FILECOIN</td>
+                <td>7</td>
+                <td>50%</td>
+                <td>70</td>
+            </tr>
+            <tr>
+                <th scope="row">10</th>
+                <td>MATIC</td>
+                <td>1</td>
+                <td>50%</td>
+                <td>10</td>
+            </tr>
+            </tbody>
+        </table>
+    </article>
+</main><!-- ./ Main -->
+
+<!-- Footer -->
+<footer class="container-fluid">
+    Swap you crpto
+</footer><!-- ./ Footer -->
+
+<!-- Minimal theme switcher -->
+<script src="../js/minimal-theme-switcher.js"></script>
+
+
+
+
+</body>
+</html>
